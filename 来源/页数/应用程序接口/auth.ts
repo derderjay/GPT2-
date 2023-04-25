@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro'
 
-const realPassword = "ilovejie"
+const realPassword = "147456"
 const passList = realPassword.split(',') || []
 
 export const post: APIRoute = async(context) => {
