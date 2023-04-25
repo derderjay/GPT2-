@@ -5,7 +5,7 @@ import type { Accessor, Setter } from 'solid-js'
 
 interface Props {
   canEdit: Accessor<boolean>
-  systemRoleEditing: Accessor<boolean>
+  SystemRoleEditing: Accessor<boolean>
   setSystemRoleEditing: Setter<boolean>
   currentSystemRoleSettings: Accessor<string>
   setCurrentSystemRoleSettings: Setter<string>
@@ -52,7 +52,7 @@ export default (props: Props) => {
           <div>
             <textarea
               ref={systemInputRef!}
-              placeholder="You are a helpful assistant, answer as concisely as possible...."
+              placeholder="Your name is JieAI,  a helpful assistant, answer as concisely as possible...."
               autocomplete="off"
               autofocus
               rows="3"
